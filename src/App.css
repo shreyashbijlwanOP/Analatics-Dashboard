@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap");
+/* font-family: 'Quicksand', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile {
+  border-radius: 5px;
+  width: max-content;
+  padding: 10px;
+  position: relative;
+  top: -50px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 10px grey;
+  border: 1px solid lightgrey;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile div {
+  padding: 3px 10px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.profile-email {
+  text-decoration: underline;
+}
+.stage-box {
+  height: 92px;
+  width: 100%;
+  background-color: rgba(248, 171, 123, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0 0.1);
+  border-radius: 0px 10px 10px 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.main-content {
+  padding: 0px 10px 0px 20px;
+}
+.stage-card {
+  width: 136px;
+  height: 80px;
+  background: #ffffff;
+  border: 1px solid rgba(136, 136, 136, 0.4);
+  border-radius: 10px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.stage-count {
+  font-family: "Quicksand";
+  font-style: normal;
+  color: #662d91;
+  font-weight: 500;
+  font-size: 35px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box {
+  display: flex;
+  padding: 0px 10px;
+  height: 35vh;
+  align-items: center;
+  justify-content: space-between;
 }
+.select-box {
+  padding: 5px 20px;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.select {
+  width: 300px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  width: 15px;
+  display: inline-block;
+  border-radius: 2px;
+  height: 15px;
+}
+.funnel-box {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.box1 {
+  background-color: #cfb1e6;
+}
+.box2 {
+  background-color: #b88ada;
+}
+.box3 {
+  background-color: #a063ce;
+}
+.box4 {
+  background-color: #883cc2;
+}
+.box5 {
+  background-color: #662d91;
+}
+.indicators {
+  align-self: flex-end;
+}
+.indicators > * {
+  margin-bottom: 3px;
+}
+.Line{
+  height: 310px;
+  padding: 10px 20px;
+}
+/* 
+#CFB1E6
+#B88ADA
+#A063CE
+#883CC2
+#662D91
+*/
