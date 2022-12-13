@@ -8,15 +8,14 @@ import Funnel from "./Funnel";
 function App() {
   return (
     <div className="App">
-    <Select/>
+      <Select />
+      {/*  */}
       <div className="box">
-      <Profile />
-      <Funnel />
+        <Profile />
+        <Funnel />
       </div>
       <Buttons />
-    
-      <LineChart/>
-     
+      <LineChart />
     </div>
   );
 }
